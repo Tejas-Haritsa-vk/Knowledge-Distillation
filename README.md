@@ -7,10 +7,10 @@ This repository demonstrates Knowledge Distillation (KD) on the MNIST dataset â€
 Knowledge Distillation allows a compact model to mimic the behavior of a larger, well-trained model.
 In this project:
 
-A Teacher model (large CNN) is first trained on MNIST.
+* A Teacher model (large CNN) is first trained on MNIST.
 
-A Student model (smaller CNN or MLP) is then trained using both:
+* A Student model (smaller CNN or MLP) is then trained using both:
 
-The true labels
+  * The true labels
 
-The soft targets (logits) from the teacher model
+  * The soft targets (logits) from the teacher model
